@@ -1,0 +1,20 @@
+<import src="DongTai/DongTai.wxml" />
+<view class="head">
+  <image src="/images/u868.png"></image>
+</view>
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{obj.currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">动态</view>
+  <view class="swiper-tab-list {{obj.currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">活动</view>
+  <view class="swiper-tab-list {{obj.currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">群精选</view>
+</view>
+<swiper current="{{obj.currentTab}}" style="height:{{obj.winHeight - 131}}px" class="swiper-box" duration="300" bindchange="bindChange">
+  <swiper-item>
+    <template is="DongTai" data="{{P_Messages}}"/>
+  </swiper-item>
+  <swiper-item>
+    <text>321</text>
+  </swiper-item>
+  <swiper-item>
+    <text>456</text>
+  </swiper-item>
+</swiper>

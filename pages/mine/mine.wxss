@@ -1,0 +1,52 @@
+/* pages/mine/mine.wxss */
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200rpx;
+  width: 100%;
+  background-color: #00e3e3;
+  padding:60rpx 0;
+}
+
+.user_photo image {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.user_nickname{
+  margin-top:10rpx;
+  color: #fff;
+}
+.body{
+  background-color: #ddd;
+  width: 100%;
+  height:100%;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  width: 88%;
+  font-size: 26rpx;
+  color:#282828;
+  padding:6rpx 6%;
+  height:80rpx;
+  line-height: 80rpx;
+  border-bottom:1px solid #ddd;
+}
+.item image{
+  margin-right:8rpx;
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
+}
+.items{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  background-color: white;
+  margin-bottom:20rpx;
+}
+

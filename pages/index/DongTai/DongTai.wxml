@@ -1,0 +1,33 @@
+<template name="DongTai">
+  <scroll-view class="DongTai" scroll-y="true" style="height:100%">
+    <block wx:for="{{P_Messages}}" wx:for-item="item" wx:key="unqiue">
+      <view class="item">
+        <view class="head">
+          <view class="head-front">
+            <image class="photo" src="{{item.photo}}"></image>
+            <view class="info">
+              <view>{{item.name}}</view>
+              <view class="time">{{item.time}}前</view>
+            </view>
+            <view class="t2" wx:if="{{item.Type.t2}}">{{item.Type.t2}}</view>
+          </view>
+          <view class="t1" wx:if="{{item.Type.t1}}">{{item.Type.t1}}</view>
+        </view>
+        <view class="content">
+            {{item.text.zhan == true ? item.text._text : item.text.text_}}
+            <view wx:if="{{item.text.zhanheng}}" data-index="{{item.index}}" class="quan" style="color:#0080ff" catchtap="quanwen">
+                <view wx:if="{{item.text.zhan}}">全文</view>
+                <view wx:else>收起</view>
+            </view>
+        </view>
+        
+        <view class="comment" wx:if="{{item.comments}}">
+          <block wx:for="{{item.comments}}" wx:for-item="comment" wx:key="unqiue">
+            <view>{{comment.name}}</view>
+            <view>{{comment.content}}</view>
+          </block>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</template>

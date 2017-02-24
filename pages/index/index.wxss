@@ -1,0 +1,38 @@
+/**index.wxss**/
+@import "DongTai/Dongtai.wxss";
+
+.head image{
+  width: 100%;
+}
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #efefef;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 33%;
+  color: #777;
+  background-color: #fff;
+}
+
+.on {
+  color: #000;
+  border-bottom: 5rpx solid #000;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #8e8e8e;
+}
+
+
+
+
