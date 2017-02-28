@@ -1,0 +1,26 @@
+
+<!--pages/publish/publish.wxml-->
+<view class="content">
+  <textarea class="publish" placeholder="分享自己的观点" />
+  <view class="PicDisplayArea">
+    <block wx:for="{{imageList}}" wx:key="unqiue" wx:for-item="image">
+      <view class="image">
+        <image class="image_in" bindtap="previewImage" data-src="{{image.image}}" src="{{image.image}}"></image>
+      </view>
+    </block>
+    <view class="AddButton" bindtap="chooseImage">点击添加图片</view>
+    <view class="DeleteButton {{imageList.length == 0? 'gry':''}}" bindtap="deletewindow">点击删减图片</view>
+  </view>
+</view>
+
+<!--弹窗-->
+<view class="DeleteWindow" wx:if="{{Delete}}">
+  <view class="PicDisplayArea">
+    <block wx:for="{{imageList}}" wx:key="unqiue" wx:for-item="image">
+      <view class="image {{image.choose == true? 'ac' : ''}}" >
+        <image class="image_in" bindtap="chooseitem" data-index="{{image.index}}" src="{{image.image}}"></image>
+      </view>
+    </block>
+  </view>
+  <view bindtap="deleteImage">删除图片</view>
+</view>

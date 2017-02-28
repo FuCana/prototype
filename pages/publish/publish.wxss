@@ -1,0 +1,47 @@
+/* pages/publish/publish.wxss */
+.content{
+    width: 100%;
+    padding: 20rpx;
+}
+.publish{
+    width: 92%;
+    height: 300rpx;
+    font-size: 28rpx;
+    line-height: 32rpx;
+    border: 1px solid #ccc;
+    padding:10rpx;
+}
+.PicDisplayArea{
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    margin-top: 20rpx;
+    background: #ddd;
+}
+.AddButton{
+    flex: 0 0 25%;
+    height: 150rpx;
+    order:1;
+    border:1px solid #ccc;
+}
+.DeleteButton{
+    flex: 0 0 25%;
+    height: 150rpx;
+    order:1;
+    border:1px solid #ccc;
+}
+.image{
+    flex: 0 0 25%;
+    height: 150rpx;
+}
+.image .image_in{
+    height:100%;
+    width:100%;
+}
+.ac{
+    border:2px solid lightseagreen;
+}
+.gry{
+    color:#fff;
+}

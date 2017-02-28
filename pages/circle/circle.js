@@ -1,4 +1,4 @@
-// pages/production/production.js
+// pages/circle/circle.js
 Page({
   data:{},
   onLoad:function(options){

@@ -1,4 +1,0 @@
-<view class="container">
-    <view><image src="{{tempFilePaths}}"></image></view>
-    <text class="content" catchtap="onTap">更换头像</text>
-</view>

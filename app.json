@@ -1,11 +1,11 @@
 {
   "pages":[
-    "pages/demo/demo",
     "pages/index/index",
-    "pages/member/member",
-    "pages/production/production",
+    "pages/circle/circle",
+    "pages/course/course",
     "pages/mine/mine",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/publish/publish"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -24,14 +24,14 @@
       "selectedIconPath": "images/u1244.png"
     },
     {
-      "pagePath": "pages/member/member",
-      "text": "成员",
+      "pagePath": "pages/circle/circle",
+      "text": "圈子",
       "iconPath": "images/u1214.png",
       "selectedIconPath": "images/u1214.png"
     },
     {
-      "pagePath": "pages/production/production",
-      "text": "优品",
+      "pagePath": "pages/course/course",
+      "text": "课程",
       "iconPath": "images/u1246.png",
       "selectedIconPath": "images/u1246.png"
     },

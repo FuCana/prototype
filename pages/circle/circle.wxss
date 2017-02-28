@@ -1,0 +1,26 @@
+/* pages/circle/circle.wxss */
+page{
+    background: #ddd;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20rpx;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    height:80rpx;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.item image{
+    margin: 20rpx;
+    width:40rpx;
+    height:40rpx;
+}
+.item .text{
+    height: 80rpx;
+    line-height: 80rpx;
+} 

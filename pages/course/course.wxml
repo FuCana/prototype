@@ -1,0 +1,20 @@
+
+<!--pages/course/course.wxml-->
+<video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+binderror="videoErrorCallback" objectFit="cover" controls></video>
+<view class="introduce">
+  <view class="crouse_head">
+    <view class="intr">频道介绍</view>
+    <view>
+      <view class="DingYue">+订阅</view>
+      <view class="num">(209)</view>
+    </view>
+  </view>
+  <view class="Details">
+    <view class="text">
+      <view class="video_name">心血管影像资料</view>
+      <view>擅长:循环|介入</view>
+    </view>
+    <view class="arrow">></view>
+  </view>
+</view>

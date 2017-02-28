@@ -52,6 +52,7 @@
     color:#ffdc35;
     border-radius: 14rpx;
     height: 26rpx;
+    line-height: 26rpx;
 }
 .content{
     border-bottom: 1px solid #ccc;

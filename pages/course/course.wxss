@@ -1,0 +1,48 @@
+/* pages/course/course.wxss */
+page{
+    background: #ddd;
+}
+#myVideo{
+    width: 100%;
+}
+.introduce{
+    width: 94%;
+    padding:20rpx 3%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.crouse_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:1px solid #ddd;
+    height: 70rpx;
+}
+.intr{
+    font-weight: bold;
+}
+.DingYue{
+    display: inline-block;
+    width: 120rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border-radius: 26rpx;
+    color:#fff;
+    background-color: rgb(52,124,247);
+    margin-right:10rpx;
+}
+.num{
+    display: inline-block;
+    color:rgb(52,124,247);
+}
+.Details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}

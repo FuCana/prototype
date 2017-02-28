@@ -1,0 +1,21 @@
+<!--pages/circle/circle.wxml-->
+<view class="items">
+    <view class="item">
+        <image src="/images/u1248.png"></image>
+        <view class="text">微信群</view>
+    </view>
+</view>
+<view class="items">
+    <view class="item">
+        <image src="/images/u1248.png"></image>
+        <view class="text">会员</view>
+    </view>
+    <view class="item">
+        <image src="/images/u1248.png"></image>
+        <view class="text">达人</view>
+    </view>
+    <view class="item">
+        <image src="/images/u1248.png"></image>
+        <view class="text">积分榜</view>
+    </view>
+</view>

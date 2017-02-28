@@ -158,5 +158,15 @@ Page({
         'obj.currentTab': event.target.dataset.current
       })
     }
+  },
+
+    // publish
+  publishtab: function () {
+    wx.navigateTo({
+      url: '../publish/publish',
+    })
   }
+
 })
+
+

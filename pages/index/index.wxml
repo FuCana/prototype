@@ -1,6 +1,9 @@
 <import src="DongTai/DongTai.wxml" />
 <view class="head">
   <image src="/images/u868.png"></image>
+  <view class="publish" bindtap="publishtab">
+    <image src="/images/u211.png"></image>
+  </view>
 </view>
 <view class="swiper-tab">
   <view class="swiper-tab-list {{obj.currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">动态</view>
