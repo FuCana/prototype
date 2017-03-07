@@ -1,0 +1,11 @@
+
+<!--pages/circle/team/team.wxml-->
+  <block wx:for="{{team}}" wx:for-item="item">
+    <view class="qun" bindtap="onIntroduce">
+      <image src="{{item.team_aver}}"></image>
+      <view class="qun_right">
+        <view class="name">{{item.team_name}}</view>
+        <view class="manager">{{item.team_manager}}</view>
+      </view>
+    </view>
+  </block>

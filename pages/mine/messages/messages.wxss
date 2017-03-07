@@ -1,0 +1,45 @@
+/* pages/mine/messages/messages.wxss */
+.msg{
+    display: flex;
+    flex-direction: row;
+    height: 105rpx;
+    border: 1px solid #ececec;
+    padding:20rpx 3% 30rpx 3%;
+    width: 94%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width:84%;
+    margin-top: 15rpx;
+}
+.right_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:22rpx;
+}
+.left{
+    width: 16%;
+}
+.photo{
+    height:80rpx;
+    width:80rpx;
+    border-radius: 50%;
+    background: red;
+    margin-left: 20rpx;
+}
+.name{
+    color:#48b0f7;
+    font-size: 30rpx;
+}
+.time{
+    font-size: 24rpx;
+    color:#878787;
+}
+.text{
+    font-size: 28rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}

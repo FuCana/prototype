@@ -1,0 +1,48 @@
+
+<!--pages/mine/personal/personal.wxml-->
+<view class="container">
+  <view class="items">
+    <view class="item name">
+      <view>昵称</view>
+      <view class="Didnot">打豆豆</view>
+    </view>
+    <view class="item gender">
+      <view>性别</view>
+      <view class="Didnot">女</view>
+    </view>
+    <view class="item location">
+      <view>地址</view>
+      <view class="Didnot">上海</view>
+    </view>
+  </view>
+  <view class="items">
+    <view class="item iphone" data-category="电话号码" bindtap="go_revamp">
+      <view>手机号</view>
+       <view class="NeedSelected">
+       <view class="user_msg">15730983470</view>
+        <image src="/images/u3285.png"></image>
+      </view>
+    </view>
+    <view class="item email" data-category="邮箱" bindtap="go_revamp">
+      <view>邮箱</view>
+      <view class="NeedSelected">
+      <view class="user_msg">15730983470</view>
+        <image src="/images/u3285.png"></image>
+      </view>
+    </view>
+    <view class="item company" data-category="公司" bindtap="go_revamp">
+      <view>公司</view>
+      <view class="NeedSelected">
+      <view class="user_msg">15730983470</view>
+        <image src="/images/u3285.png"></image>
+      </view>
+    </view>
+    <view class="item position" data-category="职位" bindtap="go_revamp">
+      <view>职位</view>
+      <view class="NeedSelected">
+      <view class="user_msg">15730983470</view>
+        <image src="/images/u3285.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

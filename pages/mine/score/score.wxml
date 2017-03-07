@@ -1,0 +1,63 @@
+
+<!--pages/mine/score/score.wxml-->
+<view class="header">
+  <view class="main">
+    <image src="/images/mine/integral.png"></image>
+    <view class="score_score">322</view>
+    <view class="jifen">积分</view>
+  </view>
+  <view class="score-btn">积分明细</view>
+</view>
+<view class="container">
+  <view class="item">积分规则</view>
+  <view class="item">
+    <view>
+      <view class="spot"></view>
+      <view class="zan">访问空间（次）</view>
+    </view>
+    <view class="jifen_">
+      <view>+5</view>
+      <view>分</view>
+    </view>
+  </view>
+  <view class="item">
+    <view>
+      <view class="spot"></view>
+      <view class="zan">发布内容（次）</view>
+    </view>
+    <view class="jifen_">
+      <view>+5</view>
+      <view>分</view>
+    </view>
+  </view>
+  <view class="item">
+    <view>
+      <view class="spot"></view>
+      <view class="zan">点赞（次）</view>
+    </view>
+    <view class="jifen_">
+      <view>+5</view>
+      <view>分</view>
+    </view>
+  </view>
+  <view class="item">
+    <view>
+      <view class="spot"></view>
+      <view class="zan">评论（次）</view>
+    </view>
+    <view class="jifen_">
+      <view>+5</view>
+      <view>分</view>
+    </view>
+  </view>
+  <view class="item">
+    <view>
+      <view class="spot"></view>
+      <view class="zan">阅读（条）</view>
+    </view>
+    <view class="jifen_">
+      <view>+5</view>
+      <view>分</view>
+    </view>
+  </view>
+</view>

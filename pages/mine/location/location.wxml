@@ -1,0 +1,23 @@
+
+<!--pages/mine/location/location.wxml-->
+<form>
+  <view class="container">
+    <view class="item">
+      <view class="title">收货人</view>
+      <input class="name" placeholder="请输入姓名" />
+    </view>
+    <view class="item">
+      <view class="title">手机号码</view>
+      <input class="phonenumber" placeholder="请输入手机号码" />
+    </view>
+    <view class="item">
+      <view class="title">所在城市</view>
+      <input class="name" placeholder="请输入姓名" />
+    </view>
+    <view class="item">
+      <view class="title">详细地址</view>
+      <input class="location" placeholder="请输入详细地址" />
+    </view>
+  </view>
+  <button formType="submit" type="primary" class="primary">保存收货地址</button>
+</form>

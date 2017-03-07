@@ -1,0 +1,38 @@
+/* pages/index/DongTaiDatil/DongTaiDatil.wxss */
+@import "../../template/user_photo/user_photo.wxss";
+.zan{
+    width: 80%;
+    height:80rpx;
+    padding:10rpx 0;
+    display: flex;
+    flex-direction: row;
+}
+.zan image{
+    height:80rpx;
+    width: 8%;
+    padding:0 1%;
+}
+.zan_icon{
+    width:20%;
+    height: 80rpx;
+}
+.comments{
+    height:60%;
+}
+.foot_bar{
+    width:100%;
+    height: 80rpx;
+    background-color: #ddd;
+}
+.foot_bar view{
+    width:50%;
+    display: inline-block;
+    text-align: center;
+}
+.foot_bar image{
+    width: 66rpx;
+    height:66rpx;
+}
+.page{
+    display: relative;
+}

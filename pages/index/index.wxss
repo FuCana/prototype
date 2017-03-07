@@ -22,32 +22,29 @@
   height: 50rpx;
   margin: 10rpx;
 }
-.swiper-tab {
-  width: 100%;
-  border-bottom: 2rpx solid #efefef;
-  text-align: center;
-  line-height: 80rpx;
-}
-
-.swiper-tab-list {
-  font-size: 30rpx;
-  display: inline-block;
-  width: 33%;
-  color: #777;
-  background-color: #fff;
-}
-
 .on {
   color: #000;
   border-bottom: 5rpx solid #000;
 }
-
-.swiper-box {
-  display: block;
-  height: 100%;
+.nav{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
   width: 100%;
-  overflow: hidden;
-  background-color: #8e8e8e;
+}
+.nav .tabbar{
+  display: flex;
+  flex-direction: column;
+  width:33.33%; 
+  text-align: center;
+  padding:16rpx;
+  height: 68rpx;
+  font-size: 28rpx;
+}
+.nav image{
+  width:50rpx;
+  height:50rpx;
+  margin: 0 auto;
 }
 
 

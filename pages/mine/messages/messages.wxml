@@ -1,0 +1,14 @@
+
+<!--pages/mine/messages/messages.wxml-->
+<view class="msg">
+  <view class="left">
+    <view class="photo"></view>
+  </view>
+  <view class="right">
+    <view class="right_top">
+      <view class="name">系统管理员</view>
+      <view class="time">一小时前</view>
+    </view>
+    <view class="text">回复：吧啦吧啦那边卡不卡不卡吧哭吧哭不是精神病风景好的办法就是不对劲</view>
+  </view>
+</view>

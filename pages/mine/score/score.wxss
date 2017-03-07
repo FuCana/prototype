@@ -1,0 +1,79 @@
+/* pages/mine/score/score.wxss */
+
+.header {
+  height: 300rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #48b0f7;
+  color:#fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  line-height: 100rpx;
+}
+
+.main image {
+  height: 100rpx;
+  width: 100rpx;
+  margin: 0 26rpx;
+}
+
+.score_score {
+  font-size: 60rpx;
+  line-height: 100rpx;
+}
+
+.jifen {
+  margin: 0 30rpx;
+  line-height: 110rpx;
+}
+
+.score-btn {
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 6rpx;
+  font-size: 26rpx;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 0 6rpx;
+  margin:auto 20rpx;
+
+}
+.item{
+    height:80rpx;
+    line-height: 80rpx;
+    font-size: 26rpx;
+    width: 96%;
+    display: flex;
+    padding: 0 2%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jifen_{
+    display: flex;
+    flex-direction: row;
+}
+.item:nth-child(1){
+    height:60rpx;
+    line-height: 60rpx;
+}
+.item:nth-child(2n){
+    background-color: #ececec;
+}
+.spot{
+    border-radius: 50%;
+    background-color: #878787;
+    width: 10rpx;
+    height: 10rpx;
+    display: inline-block;
+    margin: auto 8rpx;
+    vertical-align: middle;
+}
+.zan{
+    display: inline-block;
+}

@@ -1,0 +1,33 @@
+/* pages/mine/location/location.wxss */
+page{
+    background: #f8f8fa;
+}
+.container{
+    background-color: #fff;
+    padding-left:5%;
+}
+.item{
+    height: 90rpx;
+    line-height: 90rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom:1px solid #ececec;
+}
+.title{
+    width: 20%;
+    color: #878787;
+    font-size: 30rpx;
+}
+input{
+    width:80%;
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 26rpx;
+}
+form .primary{
+    background-color: #48b0f7;
+    margin: 30rpx auto;
+    width: 90%;
+
+}

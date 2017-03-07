@@ -13,7 +13,7 @@
           </view>
           <view class="t1" wx:if="{{item.Type.t1}}">{{item.Type.t1}}</view>
         </view>
-        <view class="content">
+        <view class="content" bindtap="onDatil">
             {{item.text.zhan == true ? item.text._text : item.text.text_}}
             <view wx:if="{{item.text.zhanheng}}" data-index="{{item.index}}" class="quan" style="color:#0080ff" catchtap="quanwen">
                 <view wx:if="{{item.text.zhan}}">全文</view>

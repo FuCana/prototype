@@ -1,0 +1,13 @@
+/* pages/mine/revamp/revamp.wxss */
+input{
+    width: 90%;
+    height:90rpx;
+    margin-top: 21rpx;
+    line-height: 90rpx;
+    padding: 0 5%;
+    font-size: 30rpx;
+    background-color: #fff;
+}
+page{
+    background-color: #f8f8fe;
+}

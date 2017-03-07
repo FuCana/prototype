@@ -1,0 +1,31 @@
+
+<!--pages/index/DongTaiDatil/DongTaiDatil.wxml-->
+<import src="../../template/user_photo/user_photo.wxml" />
+<view class="page" style="height:{{WindowSize.winHeight}}px">
+  <view class="header">
+    <template is="user_photo" data="{{...user_info}}" />
+  </view>
+  <view class="body">
+    <text>{{text}}</text>
+    <view class="zan">
+      <image src="/images/u159.png"></image>
+
+      <!--<block wx:for="{{}}">
+            <image src="{{}}"></image>
+        </block>-->
+      <view class="zan_icon">{{zan}}</view>
+    </view>
+  </view>
+  <scroll-view class="comments" column="true">
+    <block wx:for="{{comments}}" wx:for-item="comment" wx:key="unqiue">
+      <template is="user_photo" data="{{...comment}}" />
+      <view class="user_comment">{{comment.content}}</view>
+    </block>
+  </scroll-view>
+  <view class="foot_bar">
+    <view class="right_bar">
+      <image src="/images/u131.png"></image> 21</view>
+    <view class="left_bar">
+      <image src="/images/u105.png"></image> 2</view>
+  </view>
+</view>

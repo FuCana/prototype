@@ -1,0 +1,9 @@
+<template name="user_photo">
+    <view class="user_container">
+        <image src="{{photo}}"></image>
+        <view class="user_right">
+            <view class="user_name">{{name}}</view>
+            <view class="time">{{time}}</view>
+        </view>
+    </view>
+</template>

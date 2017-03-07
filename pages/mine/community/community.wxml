@@ -1,0 +1,39 @@
+
+<!--pages/mine/community/community.wxml-->
+<view class="header">
+  <image src="{{userInfo.avatarUrl}}"></image>
+  <view class="header_right">
+    <view class="name">{{userInfo.nickName}}</view>
+    <view class="location">上海</view>
+  </view>
+</view>
+<view class="middle">
+  <view class="item">
+    <view>社区签名</view>
+    <view>扑满是笨蛋</view>
+  </view>
+  <view class="item">
+    <view>加入时间</view>
+    <view>2016-9-10</view>
+  </view>
+</view>
+<view class="Info">
+  <view class="title">我的数据</view>
+  <view class="tab_block">
+    <view class="block">
+      <image src="/images/mine/image-text.png"></image>
+      <view>动态数</view>
+      <view>5</view>
+    </view>
+    <view class="block">
+      <image src="/images/mine/survey.png"></image>
+      <view>评论数</view>
+      <view>15</view>
+    </view>
+    <view class="block">
+      <image src="/images/mine/supplier-features.png"></image>
+      <view>访客数</view>
+      <view>295</view>
+    </view>
+  </view>
+</view>

@@ -119,7 +119,7 @@ Page({
     //Login
     app.getUserInfo(function (userInfo) {
       //更新数据
-      console.log(userInfo)
+       console.log(userInfo)
       // app.globalData.userInfo = userInfo 登录函数已经赋值过了
       app.globalData.Login = true
     });
@@ -127,7 +127,7 @@ Page({
     var that = this;
     wx.getSystemInfo({
       success: function (res) {
-        // console.log(res)
+      //  console.log(res)
         that.setData({
           'obj.winWidth': res.windowWidth,
           'obj.winHeight': res.windowHeight
@@ -145,28 +145,34 @@ Page({
     that.setData({ 'obj.currentTab': event.detail.current });
 
   },
-
-  //  点击tab切换 
-
-  swichNav: function (event) {
-
-    var that = this;
-    if (this.data.obj.currentTab === event.target.dataset.current) {
-      return false;
-    } else {
-      that.setData({
-        'obj.currentTab': event.target.dataset.current
-      })
-    }
-  },
-
     // publish
   publishtab: function () {
     wx.navigateTo({
       url: '../publish/publish',
     })
+  },
+  //navigateTo
+  Go_notice: function () {
+    wx.navigateTo({
+      url: "notice/notice"
+    })
+  },
+  Go_selection:function(){
+    wx.navigateTo({
+      url: "selection/selection"
+    })
+  },
+  Go_score:function(){
+    wx.navigateTo({
+      url:  "/pages/circle/score/score"
+    })
+  },
+  onDatil:function(){
+    wx.navigateTo({
+      url:  "DongTaiDatil/DongTaiDatil"
+    })
   }
-
 })
-
+ 
+   
 

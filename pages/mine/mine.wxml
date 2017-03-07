@@ -8,41 +8,58 @@
 </view>
 <view class="body" style="height:{{windowsize.winHeight-160}}px">
   <view class="items">
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2395.png"></image> 个人资料</view>
+    <view class="item" bindtap="go_personal">
+      <view class="image">
+        <image src="/images/mine/personal.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        个人资料</view>
     </view>
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2485.png"></image> 社区资料</view>
-    </view>
-  </view>
-  <view class="items">
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2419.png"></image> 我的动态</view>
-    </view>
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2435.png"></image> 我的消息</view>
-    </view>
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2441.png"></image> 我的收藏</view>
+    <view class="item" bindtap="go_community">
+      <view class="image">
+        <image src="/images/mine/file.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        社区资料</view>
     </view>
   </view>
   <view class="items">
     <view class="item">
-      <view>
-        <image src="/images/mine/u2469.png"></image> 积分商城</view>
+      <view class="image">
+        <image src="/images/mine/dongtai.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        我的动态</view>
+    </view>
+    <view class="item" bindtap="go_msg">
+      <view class="image">
+        <image src="/images/mine/messages.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        我的消息</view>
     </view>
     <view class="item">
-      <view>
-        <image src="/images/mine/u2459.png"></image> 我的订单</view>
+      <view class="image">
+        <image src="/images/mine/collection.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        我的收藏</view>
     </view>
-    <view class="item">
-      <view>
-        <image src="/images/mine/u2457.png"></image> 收货地址</view>
+  </view>
+  <view class="items">
+    <view class="item" bindtap="go_score">
+      <view class="image">
+        <image src="/images/mine/integral.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        我的积分</view>
+    </view>
+    <view class="item" bindtap="go_location">
+      <view class="image">
+        <image src="/images/mine/location.png"></image>
+      </view>
+      <view class="text" style="width:{{windowsize.winWidth-42}}px">
+        我的地址</view>
     </view>
   </view>
 </view>
